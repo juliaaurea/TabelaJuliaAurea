@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href = "./style.css">
+    <link rel="stylesheet" href="'.css/style.css"
 </head>
-
 <body>
-    <header>
-        <img src="./img/banner.jpeg" alt = "Banner">
-        <nav>
-            git re
-
-        </nav>
-    </header>
-    <main class="index">
-        <section>
-            <img src="./img/image.png" alt = "Imagem Batom">
-            <img src="./img/image1.png" alt = "Imagem Máscara de cilios">
-            <img src="./img/image2.png" alt = "Imagem Blush">
-        <section>
-    </main>
-    <footer>
-         <img src="./img/insta.svg" alt = "Instagram">
-         <img src="./img/face.svg" alt = "Facebook">
-    </footer>
+<form action="" method="post">
+    <input type="checkbox" name="check[]" value="1">
+    <input type="checkbox" name="check[]" value="2">
+    <input type="color" name="cor">
+    <input type="date" name="data">
+    <input type="datetime-local" name="datahora">
+    <input type="email" required name="email">
+    <input type="file" name="arquivo">
+    <input type="hidden">
+    <input type="month" name="mes">
+    <input type="number" name="numero">
+    <input type="password" name="senha">
+    <input type="radio" name="bol" value="a">
+    <input type="radio" name="bol" value="b">
+    <input type="radio" name="bol" value="c">
+    <input type="range" name="faixa">
+    <input type="search" name="busca">
+    <input type="tel" name="telefone">
+    <input type="text" name="nome" placeholder="Julia">
+    <input type="time" name="hora">
+    <input type="url" required name="url">
+    <input type="week" name="semana">
+    <label for="est">Estado</label>
+    <select name="estado" id="est">
+        <option value=""></option>
+        <option value="1">MG</option>
+        <option value="2">SP</option>
+        <option value="3">RJ</option>
+    </select>
+    <textarea name="texto" id="" cols="30" rows="10"></textarea>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
 </body>
-
 </html>
